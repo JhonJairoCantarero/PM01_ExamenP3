@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    tools:context=".Recuperar_Clave">
+
+
+    <Button
+        android:id="@+id/buttonInicio2"
+        android:layout_width="190dp"
+        android:layout_height="59dp"
+        android:backgroundTint="#7A817B"
+        android:drawableRight="@drawable/ic_baseline_login_24"
+        android:paddingRight="10dp"
+        android:text="Iniciar Sesion"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.775" />
+
+    <Button
+        android:id="@+id/buttonRecuperar_Clave"
+        android:layout_width="287dp"
+        android:layout_height="59dp"
+        android:backgroundTint="#7A817B"
+        android:drawableRight="@drawable/ic_baseline_lock_person_24"
+        android:paddingRight="10dp"
+        android:text="Recuperar Contraseña"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.633" />
+
+    <EditText
+        android:id="@+id/claveRecuperar"
+        android:layout_width="313dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginEnd="138dp"
+        android:backgroundTint="#BDD3C1"
+        android:drawableLeft="@drawable/ic_baseline_mail_lock_24"
+        android:ems="10"
+        android:hint="   Ingrese Correo"
+        android:inputType="textPersonName"
+        android:paddingRight="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.398"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.462" />
+</androidx.constraintlayout.widget.ConstraintLayout>
